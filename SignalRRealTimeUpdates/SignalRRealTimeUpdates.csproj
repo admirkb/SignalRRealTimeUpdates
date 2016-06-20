@@ -19,6 +19,7 @@
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -105,16 +106,20 @@
   <ItemGroup>
     <Content Include="Angular\Modules\Main\appMain.js" />
     <Content Include="Angular\Modules\Main\Controllers\html\mainDeleteModalCtrlContent.html" />
+    <Content Include="Angular\Modules\Main\Controllers\mainCtrlPouchDB.js" />
     <Content Include="Angular\Modules\Main\Controllers\mainMongoDBCtrl.js" />
     <Content Include="Angular\Modules\Main\Controllers\mainCtrl.js" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Angular\Modules\Main\Factories\fCommon.js" />
+    <Content Include="Content\BugTrackerScreenShot.png" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="mongoDBIndex.html" />
     <Content Include="index.html" />
     <Content Include="packages.config" />
+    <Content Include="pouchDBIndex.html" />
     <Content Include="Scripts\angular-animate.js" />
     <Content Include="Scripts\angular-animate.min.js" />
     <Content Include="Scripts\angular-cookies.js" />
